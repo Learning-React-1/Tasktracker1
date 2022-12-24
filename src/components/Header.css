@@ -1,0 +1,16 @@
+:root{
+--button-color:green;
+--button-text-color:white;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    padding:20px;
+}
+.taskbutton{
+    background-color: var(--button-color);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color:var(--button-text-color);
+}

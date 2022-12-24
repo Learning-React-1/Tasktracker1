@@ -1,0 +1,11 @@
+:root{
+    --border-color:red;
+}
+.App{
+    border:1px solid var(--border-color);
+    max-width: 500px;
+    min-width: 500px;
+    margin:auto;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
